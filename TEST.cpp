@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    while(1)
+    {
+        cin >> a;
+        if(a<100 && a!=42)
+        cout << a << endl;
+        else
+        {
+            break;
+        }
+        
+    }
+
+}
